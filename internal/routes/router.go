@@ -18,7 +18,6 @@ func SetupRouter() *gin.Engine {
 		api.DELETE("/:id", handlers.DeleteTask)
 	}
 
-	// ✅ Video upload endpoint
 	r.POST("/videos/upload", handlers.UploadVideo)
 
 	return r
