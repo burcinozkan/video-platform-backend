@@ -14,5 +14,5 @@ func main() {
 	storage.InitS3()
 
 	r := routes.SetupRouter()
-	r.Run(":8080") // ✅ dikkat, port 8080
+	r.Run(":8080")
 }
