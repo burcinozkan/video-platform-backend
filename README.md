@@ -13,7 +13,7 @@ This project demonstrates how to upload, store, and manage video content with a 
 | Database | PostgreSQL (via Docker Compose) |
 | ORM | GORM |
 | Storage | AWS S3 |
-| Caching | Redis *(optional)* |
+| Caching | Redis  |
 | Deployment | Docker |
 
 ---
